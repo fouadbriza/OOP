@@ -13,4 +13,24 @@ public class Movie {
         this.actors = actors;
         this.synopsis = synopsis;
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getProductionYear() {
+        return productionYear;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
+    public String[] getActors() {
+        return actors;
+    }
+
+    public String getSynopsis() {
+        return synopsis;
+    }
 }

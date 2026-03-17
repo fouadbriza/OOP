@@ -1,5 +1,5 @@
 public class Room {
-    private static int counter = 0;    // generates new id values
+    private static int counter = 0;
 
     private int id;
     private int capacity;

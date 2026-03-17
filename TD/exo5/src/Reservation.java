@@ -10,4 +10,24 @@ public class Reservation {
         this.screening = screening;
         this.used = used;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public Screening getScreening() {
+        return screening;
+    }
+
+    public boolean isUsed() {
+        return used;
+    }
+
+    public void setUsed(boolean used) {
+        this.used = used;
+    }
 }

@@ -1,3 +1,7 @@
+
+import java.util.Collection;
+import java.util.Iterator;
+
 public class Animal implements Comparable<Animal> {
     private String name;
 
@@ -31,4 +35,18 @@ public class Animal implements Comparable<Animal> {
         return(this.name.compareTo(a.name));
     }
  
+
+    //PART 2:
+
+    public static void allNamesC (Collection<Animal> c) {
+        Iterator<Animal> it = c.iterator();
+        while(it.hasNext()){
+            Animal next = it.next();
+            if (next.name.toCharArray()[0]=='C'){
+                System.out.println(next.name);
+            }
+
+        }
+        
+    }
 }
